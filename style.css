@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header .logo {
+    font-size: 60px;
+    margin: 0px;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+
+}
+nav a {
+    display: block;
+    margin-left: 15px;
+}
+
+
+nav a.lonely {
+    align-self: flex-start;
+}
+
+div.benefit img {
+    max-width: 150px;
+}
+
+div.benefit {
+    max-width: 250px;
+    padding: 20px;
+    text-align: center;
+}
+
+section.benefits {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section.sayings {
+    display: flex;
+    height: 100vh;
+    background-image: url(img/beach.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    align-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+section.sayings p {
+    font-size: 40px;
+}
